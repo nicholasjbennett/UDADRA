@@ -1,0 +1,28 @@
++PART[rtg]
+{
+	@name = UDASafe
+	@title = UDA Safe
+	
+	@MODULE[ModuleGenerator]
+	{
+		@OUTPUT_RESOURCE[ElectricCharge]
+		{
+			@rate = 40
+		}
+	}
+
+	MODEL
+	{
+		model = Squad/Parts/Electrical/RTG/model
+		scale = 0.8, 0.8, 0.8
+		position = -0.440272, 0.194568, 2.72112E-08
+        //rotation = 10, 90, 0
+	}
+	MODEL
+	{
+		model = Squad/Parts/Electrical/RTG/model
+		//scale = 0.8, 0.8, 0.8
+		//position = -0.440272, 0.194568, 2.72112E-08
+        //rotation = 10, 90, 0
+	}
+}
