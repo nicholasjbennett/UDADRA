@@ -1,0 +1,53 @@
++PART[adapterSmallMiniTall]
+{
+	@name = UDA_SAFE_RADIATOR
+	@author = DBowman
+	@title = UDA Safe Radiator
+	@manufacturer = UberDyne Astronautics
+	@description = Safe Radiator
+
+//	MODEL
+//	{
+//		model = Squad/Parts/Structural/adapterSmallMiniTall/model
+//		texture = model000,UberDyneAstronautics/Soylent/1x6SoylentRed/model000.r
+//		texture = model001,UberDyneAstronautics/Soylent/1x6SoylentRed/model001.r
+//	}
+
+	RESOURCE
+	{
+		name = TkWSink
+		amount = 40
+		maxAmount = 40
+	}
+
+	MODULE
+	{
+		 name = ModuleResourceConverter
+		 ConverterName = TkWSink
+		 StartActionName = Start
+		 StopActionName = Stop
+		AutoShutdown = false
+		GeneratesHeat = false
+		UseSpecialistBonus = false
+		 OUTPUT_RESOURCE
+		 {
+			ResourceName = TkWSink
+			Ratio = 40
+			DumpExcess = true
+			FlowMode = STAGE_PRIORITY_FLOW
+		 }
+	}
+
+//	MODULE
+//	{
+//		name = ModuleGenerator
+//		isAlwaysActive = true
+//		OUTPUT_RESOURCE
+//		{
+//			name = TkWSink
+//			rate = 40
+//		}
+//	}
+
+
+}
