@@ -1,4 +1,4 @@
-UberDyne Astronautics Soylent 0.1
+UberDyne Astronautics Soylent 0.2
 =========================
 Close the Life Support cycle with Algal Arrays.
 
@@ -7,10 +7,15 @@ Dependencies
 Requires [ModuleManager](https://github.com/sarbian/ModuleManager/releases).
 Optional Thunder Aerospace Corporation's Life Support system (TACLS) (http://forum.kerbalspaceprogram.com/threads/40667-1-0-2-TAC-Life-Support-v0-11-1-20-5Apr)
 
+Changes
+-------
+0.2 Adds a Soylent Starter Container.
 
 Installation
 ------------
-Ensure ModuleManager is installed then unzip the Soylent.zip to your GameData folder. You should end up with GameData/UberDynAstronautics/Soylent.
+Ensure ModuleManager is installed.
+unzip the Soylent.zip to your GameData folder, this version is pure addition.
+You should end up with GameData/UberDynAstronautics/Soylent.
 
 
 License
